@@ -7,6 +7,7 @@
 /* header style */
 .header {
     background: url(../images/banner/banner2.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 
     background-repeat: no-repeat;
     padding-right: 200px;
@@ -20,8 +21,10 @@
 /* main text style */
 .title {
     font-weight: 700;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    
     font-size: 65px;
-    text-align: right;
+    text-align: left;
     padding-top: 200px;
     padding-bottom: 24px;
     color: black;
@@ -29,15 +32,17 @@
 
 .description {
     font-weight: 400;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
     font-size: 16px;
-    text-align:right;
+    text-align:left;
 
     color: black;
 }
 
 /* button style */
 .btn {
-    text-align: right;
+    text-align: left;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .btn-primary {
