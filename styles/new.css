@@ -7,9 +7,14 @@
 /* header style */
 .header {
     background: url(../images/banner/banner2.png);
+
     background-repeat: no-repeat;
     padding-right: 200px;
     background-position: top right, left;
+    background-position: bottom left;
+
+
+
 }
 
 /* main text style */
@@ -25,9 +30,9 @@
 .description {
     font-weight: 400;
     font-size: 16px;
-    text-align: right;
+    text-align:right;
 
-    color:black;
+    color: black;
 }
 
 /* button style */
@@ -36,19 +41,19 @@
 }
 
 .btn-primary {
-    background:yellow;
+    background: rgb(16, 173, 100);
     border-radius: 5px;
     border: 0;
     font-weight: 600;
     font-size: 20px;
-    color:blue;
+    color: blue;
     padding: 20px 25px;
     margin-top: 32px;
     margin-bottom: 200px;
     text-align: right;
 }
 
-/* failures style */
+/* Failures style */
 .failure {
     margin: 131px 240px 0 150px;
     display: flex;
@@ -83,11 +88,12 @@
 }
 
 .failure-points {
-    margin-top: 16px;
-    font-size: 16px;
+    margin-top: 18px;
+    font-size: 18px;
     color: #444343;
     line-height: 2;
 }
+
 /* plan */
 .plan {
     column-width: 80%;
@@ -125,9 +131,15 @@
 /* gredient */
 .gredient-img {
     margin: 150px;
+
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+
+
 }
 
 .mindset {
+
 
     font-weight: 700;
     font-size: 40px;
@@ -173,7 +185,8 @@
     font-size: 25px;
     color: #FFFFFF;
 }
- /* Dark 07 */
+
+/* Dark 07 */
 .input {
     font-size: 18px;
     margin-top: 30px;
